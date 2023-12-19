@@ -88,7 +88,7 @@ def get_pie_chart(entered_site):
         fig = px.pie(data1,
                      names='class',
                      title='Total Success For VAFB SLC-4E' )
-        return figss
+        return fig
         # return the outcomes piechart for a selected site
 
 
